@@ -60,3 +60,53 @@ nav>div>div i:hover
 {
     color: red;
 }
+
+
+
+
+
+
+
+.left-menu
+{
+    background-color: blueviolet;
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4rem 5%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.left-menu ul 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}   
+.left-menu ul li a
+{
+    color: #fff;
+}
+.left-menu button
+{
+    padding: 14px 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: #000;
+    color: #fff;
+}
+.left-menu i
+{
+    position: absolute;
+    top: 2%;
+    right: 6%;
+    cursor: pointer;
+    font-size: 3rem;
+}
